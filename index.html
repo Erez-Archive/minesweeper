@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find em or Die!</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="initGame()" oncontextmenu="return false;">
+    <header>
+        <h1> Find the mines if you wish to LIVE! </h1>
+    </header>
+
+    <main>
+        <div class="control-panel">
+            <button class="reset-button" onclick="buttonClicked(this);"> Restart game </button>
+            <button class="level-choice" onclick="buttonClicked(this);"> Beginner </button>
+            <button class="level-choice" onclick="buttonClicked(this);"> Pro </button>
+            <button class="level-choice" onclick="buttonClicked(this);"> Expert </button>
+        </div>
+        <div class = "timer center" >elapsed time: 0 </div>
+        <table class = "center">
+            <thead>
+                <th colspan="100"> MineSweeper </th>
+            </thead>
+            <tbody class="game-board"> </tbody>
+        </table>
+        <div class = "status-panel" > Status: Not Playing </div>
+
+
+    </main>
+
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+    <!--<script src = "js/test.js"></script>-->
+</body>
+
+</html>

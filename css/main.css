@@ -1,0 +1,67 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+header {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    padding: 6px;
+    margin: 2px;
+}
+
+th {
+    border: 1px solid gray;
+}
+
+td{
+    width: 40px;
+    height:40px;
+    text-align:center;
+    color:white;
+    background-color: gray
+}
+
+.flagged {
+    background-color: blueviolet;
+}
+.revealed {
+    background-color: white;
+    color: black;
+}
+
+.exploded {
+    background-color: red;
+}
+
+.status-panel {
+    width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    background-color: cornflowerblue;
+    color: yellow;
+
+}
+
+.timer {
+    height: 20px;
+    width: 160px;
+    padding: 4px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: lightgreen;
+}
